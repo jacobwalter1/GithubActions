@@ -50,9 +50,9 @@ namespace GithubActionsLab
         [Test]
         public void Divide_Valid()
         {
-            Assert.AreEqual(3, Program.Add("6", "2"));
-            Assert.AreEqual(5, Program.Add("15", "3"));
-            Assert.AreEqual(2, Program.Add("6", "3"));
+            Assert.AreEqual(3, Program.Divide("6", "2"));
+            Assert.AreEqual(5, Program.Divide("15", "3"));
+            Assert.AreEqual(2, Program.Divide("6", "3"));
         }
         [Test]
         public void Power_Valid()
